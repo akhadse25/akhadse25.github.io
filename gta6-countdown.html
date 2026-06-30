@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VI — Vice City Awaits</title>
+<meta name="description" content="A fan countdown to Grand Theft Auto VI, launching November 19, 2026.">
+<!-- Google Search Console: replace YOUR_VERIFICATION_CODE with the code from Search Console (see notes). -->
+<meta name="google-site-verification" content="YOUR_VERIFICATION_CODE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --night-0:#08010f;
+    --night-1:#1a0b2e;
+    --night-2:#3b1654;
+    --mag:#ff2e88;
+    --mag-soft:#ff5cab;
+    --orange:#ff8c42;
+    --gold:#ffd25a;
+    --cyan:#2de2e6;
+    --ink:#fbe9ff;
+    --grid:rgba(45,226,230,.55);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  html,body{height:100%}
+
+  body{
+    font-family:"Space Mono",monospace;
+    color:var(--ink);
+    background:var(--night-0);
+    min-height:100vh;
+    min-height:100svh;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:clamp(1.25rem,4vw,3rem);
+  }
+
+  /* night sky → sunset wash */
+  .sky{
+    position:fixed;
+    inset:0;
+    z-index:-3;
+    background:
+      radial-gradient(120% 80% at 50% 92%, rgba(255,140,66,.30) 0%, transparent 55%),
+      radial-gradient(140% 90% at 50% 100%, rgba(255,46,136,.40) 0%, transparent 60%),
+      linear-gradient(180deg, var(--night-0) 0%, var(--night-1) 42%, var(--night-2) 78%, #5a1f63 100%);
+  }
+
+  /* the synthwave sun */
+  .sun{
+    position:fixed;
+    left:50%;
+    bottom:34%;
+    transform:translateX(-50%);
+    width:min(58vw,440px);
+    aspect-ratio:1;
+    border-radius:50%;
+    z-index:-2;
+    background:linear-gradient(180deg,var(--gold) 0%,var(--orange) 45%,var(--mag) 100%);
+    box-shadow:0 0 120px 30px rgba(255,90,140,.35);
+    -webkit-mask-image:repeating-linear-gradient(180deg,#000 0 16px,transparent 16px 26px);
+    mask-image:repeating-linear-gradient(180deg,#000 0 16px,transparent 16px 26px);
+    -webkit-mask-size:100% 100%;
+    mask-size:100% 100%;
+  }
+  /* solid top half of sun (stripes only show lower down) */
+  .sun::before{
+    content:"";
+    position:absolute;
+    inset:0 0 50% 0;
+    background:linear-gradient(180deg,var(--gold) 0%,var(--orange) 100%);
+    -webkit-mask-image:none;mask-image:none;
+  }
+
+  /* perspective grid floor */
+  .grid{
+    position:fixed;
+    left:50%;
+    bottom:0;
+    width:300vw;
+    height:36vh;
+    transform:translateX(-50%) perspective(280px) rotateX(64deg);
+    transform-origin:bottom center;
+    z-index:-1;
+    background-image:
+      linear-gradient(var(--grid) 1px,transparent 1px),
+      linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+    background-size:44px 44px;
+    -webkit-mask-image:linear-gradient(transparent,#000 38%);
+    mask-image:linear-gradient(transparent,#000 38%);
+    animation:roll 2.4s linear infinite;
+  }
+  @keyframes roll{to{background-position:0 44px,0 0}}
+
+  .scanlines{
+    position:fixed;inset:0;z-index:5;pointer-events:none;
+    background:repeating-linear-gradient(0deg,rgba(0,0,0,.10) 0 1px,transparent 1px 3px);
+    mix-blend-mode:overlay;opacity:.5;
+  }
+
+  /* content */
+  .eyebrow{
+    font-size:clamp(.65rem,2.2vw,.85rem);
+    letter-spacing:.55em;
+    text-transform:uppercase;
+    color:var(--cyan);
+    text-shadow:0 0 10px rgba(45,226,230,.8);
+    margin-bottom:1.1rem;
+    padding-left:.55em;
+  }
+
+  .wordmark{
+    font-family:"Anton",sans-serif;
+    line-height:.82;
+    letter-spacing:.01em;
+    text-transform:uppercase;
+  }
+  .wordmark .line1{
+    display:block;
+    font-size:clamp(1.6rem,6vw,3rem);
+    color:var(--ink);
+    text-shadow:0 0 18px rgba(255,92,171,.45);
+  }
+  .wordmark .vi{
+    display:block;
+    font-size:clamp(5.5rem,26vw,15rem);
+    background:linear-gradient(180deg,#fff 0%,var(--gold) 24%,var(--orange) 52%,var(--mag) 100%);
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 0 26px rgba(255,46,136,.65));
+    margin-block:-.04em;
+  }
+
+  .timer{
+    display:flex;
+    gap:clamp(.6rem,2.5vw,1.6rem);
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:clamp(1.4rem,4vw,2.4rem) auto 0;
+  }
+  .unit{
+    display:flex;flex-direction:column;align-items:center;
+    min-width:clamp(58px,17vw,118px);
+  }
+  .num{
+    font-family:"Anton",sans-serif;
+    font-size:clamp(2.6rem,11vw,6rem);
+    line-height:1;
+    color:#fff;
+    text-shadow:
+      0 0 8px var(--mag-soft),
+      0 0 22px var(--mag),
+      0 0 44px rgba(255,46,136,.6);
+    font-variant-numeric:tabular-nums;
+  }
+  .lbl{
+    margin-top:.55rem;
+    font-size:clamp(.55rem,2vw,.78rem);
+    letter-spacing:.32em;
+    text-transform:uppercase;
+    color:var(--cyan);
+    text-shadow:0 0 8px rgba(45,226,230,.6);
+  }
+  .sep{
+    font-family:"Anton",sans-serif;
+    font-size:clamp(2rem,8vw,4.5rem);
+    align-self:flex-start;
+    margin-top:clamp(.1rem,1.5vw,.6rem);
+    color:var(--mag-soft);
+    opacity:.6;
+    animation:blink 1s steps(1) infinite;
+  }
+  @keyframes blink{50%{opacity:.12}}
+
+  .footer{
+    margin-top:clamp(1.6rem,4vw,2.6rem);
+    font-size:clamp(.7rem,2.3vw,.92rem);
+    letter-spacing:.18em;
+    color:var(--mag-soft);
+    text-transform:uppercase;
+  }
+  .footer .date{color:var(--gold);text-shadow:0 0 10px rgba(255,210,90,.6)}
+  .note{
+    margin-top:.85rem;
+    font-size:.62rem;
+    letter-spacing:.12em;
+    color:rgba(251,233,255,.4);
+    text-transform:uppercase;
+  }
+
+  /* launch state */
+  .launched .timer,.launched .footer .pre{display:none}
+  .launched .wordmark .vi{animation:pulse 1.4s ease-in-out infinite}
+  @keyframes pulse{50%{filter:drop-shadow(0 0 50px rgba(255,210,90,.9))}}
+  .live{display:none;font-family:"Anton",sans-serif;letter-spacing:.05em}
+  .launched .live{display:block;font-size:clamp(1.4rem,6vw,2.6rem);color:var(--gold);text-shadow:0 0 20px rgba(255,210,90,.8);margin-top:1.4rem}
+
+  @media (max-width:430px){.sep{display:none}}
+
+  @media (prefers-reduced-motion:reduce){
+    .grid,.sep,.wordmark .vi{animation:none}
+  }
+</style>
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+  <div class="sun" aria-hidden="true"></div>
+  <div class="grid" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <main id="app">
+    <p class="eyebrow">Welcome back to Leonida</p>
+
+    <h1 class="wordmark">
+      <span class="line1">Grand Theft Auto</span>
+      <span class="vi">VI</span>
+    </h1>
+
+    <div class="timer" id="timer" role="timer" aria-live="off">
+      <div class="unit"><span class="num" id="d">--</span><span class="lbl">Days</span></div>
+      <span class="sep" aria-hidden="true">:</span>
+      <div class="unit"><span class="num" id="h">--</span><span class="lbl">Hours</span></div>
+      <span class="sep" aria-hidden="true">:</span>
+      <div class="unit"><span class="num" id="m">--</span><span class="lbl">Minutes</span></div>
+      <span class="sep" aria-hidden="true">:</span>
+      <div class="unit"><span class="num" id="s">--</span><span class="lbl">Seconds</span></div>
+    </div>
+
+    <p class="live">Vice City is open.</p>
+
+    <p class="footer">
+      <span class="pre">Launching</span>
+      <span class="date">November 19, 2026</span>
+      &nbsp;·&nbsp; PS5 &amp; Xbox Series X|S
+    </p>
+    <p class="note">Unofficial fan countdown · counts to local midnight</p>
+  </main>
+
+<script>
+  // Target: midnight, Nov 19 2026, in the visitor's local time.
+  var target = new Date(2026, 10, 19, 0, 0, 0).getTime(); // month is 0-indexed
+  var app = document.getElementById('app');
+  var el = {
+    d: document.getElementById('d'),
+    h: document.getElementById('h'),
+    m: document.getElementById('m'),
+    s: document.getElementById('s')
+  };
+
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+
+  function tick(){
+    var diff = target - Date.now();
+    if (diff <= 0){
+      app.classList.add('launched');
+      document.title = 'GTA VI — Out Now';
+      return false;
+    }
+    var sec = Math.floor(diff / 1000);
+    el.d.textContent = Math.floor(sec / 86400);
+    el.h.textContent = pad(Math.floor(sec % 86400 / 3600));
+    el.m.textContent = pad(Math.floor(sec % 3600 / 60));
+    el.s.textContent = pad(sec % 60);
+    return true;
+  }
+
+  tick();
+  var id = setInterval(function(){
+    if (tick() === false) clearInterval(id);
+  }, 1000);
+</script>
+
+<!-- Cloudflare Web Analytics -->
+<!-- Replace YOUR_TOKEN_HERE with the token from your Cloudflare dashboard (see notes). -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>

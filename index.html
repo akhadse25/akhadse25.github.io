@@ -306,6 +306,74 @@
 })();
 </script>
 <!-- ===== End Add to Calendar ===== -->
+    <!-- ===== Preorder Promo (self-contained block) ===== -->
+<style>
+  #preorder-fab{
+    position:fixed;right:clamp(1rem,4vw,2rem);bottom:clamp(1rem,4vw,2rem);z-index:40;
+    font-family:"Anton",sans-serif;letter-spacing:.07em;text-transform:uppercase;font-size:.9rem;
+    color:#160a02;background:linear-gradient(135deg,var(--gold),var(--orange));
+    border:none;border-radius:40px;padding:.85rem 1.4rem;cursor:pointer;
+    box-shadow:0 0 24px rgba(255,140,66,.55);transition:transform .15s,box-shadow .2s;
+  }
+  #preorder-fab:hover{transform:scale(1.05);box-shadow:0 0 34px rgba(255,140,66,.85)}
+  #preorder-modal{
+    position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;
+    padding:1.25rem;background:rgba(6,1,12,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  }
+  #preorder-modal.open{display:flex}
+  .pm-card{
+    position:relative;max-width:430px;width:100%;
+    background:linear-gradient(180deg,rgba(26,11,46,.97),rgba(59,22,84,.97));
+    border:1px solid var(--mag-soft);border-radius:16px;text-align:center;
+    padding:clamp(1.7rem,6vw,2.5rem);box-shadow:0 0 60px rgba(255,46,136,.4);
+  }
+  .pm-eyebrow{font-family:"Space Mono",monospace;font-size:.6rem;letter-spacing:.5em;
+    text-transform:uppercase;color:var(--cyan);margin-bottom:1rem;padding-left:.5em}
+  .pm-title{font-family:"Anton",sans-serif;font-size:clamp(1.5rem,6vw,2.1rem);line-height:1.05;
+    text-transform:uppercase;color:var(--ink);margin-bottom:.7rem}
+  .pm-title em{color:var(--orange);font-style:normal}
+  .pm-sub{font-family:"Space Mono",monospace;font-size:.76rem;line-height:1.6;color:var(--mag-soft);
+    margin-bottom:1.4rem;letter-spacing:.02em}
+  .pm-btn{display:block;width:100%;font-family:"Anton",sans-serif;letter-spacing:.06em;
+    text-transform:uppercase;font-size:1rem;padding:.9rem;border-radius:10px;text-decoration:none;
+    margin-bottom:.7rem;transition:transform .15s,box-shadow .2s}
+  .pm-amazon{background:linear-gradient(135deg,#ff9900,#ff6a00);color:#160a02;box-shadow:0 0 20px rgba(255,140,0,.5)}
+  .pm-btn:hover{transform:translateY(-2px)}
+  .pm-close{position:absolute;top:.6rem;right:.95rem;background:none;border:none;
+    color:var(--mag-soft);font-size:1.6rem;line-height:1;cursor:pointer}
+  .pm-disc{font-family:"Space Mono",monospace;font-size:.54rem;line-height:1.6;
+    letter-spacing:.03em;color:rgba(251,233,255,.5);margin-top:.7rem}
+  .launched #preorder-fab,.launched #preorder-modal{display:none!important}
+</style>
+
+<button id="preorder-fab" type="button">Preorder GTA VI ›</button>
+
+<div id="preorder-modal" role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-card">
+    <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    <p class="pm-eyebrow">Grand Theft Auto VI</p>
+    <h2 class="pm-title" id="pm-title">Preorder <em>GTA VI</em><br>before launch day</h2>
+    <p class="pm-sub">Lock in your copy before launch day<br>Preorder now for the Vintage Vice City Pack bonus</p>
+    <a class="pm-btn pm-amazon" href="https://amzn.to/4aZHeTM" target="_blank" rel="noopener sponsored">Preorder on Amazon</a>
+    <p class="pm-disc">As an Amazon Associate, gtageek.me earns from qualifying purchases. Unofficial fan site — not affiliated with Rockstar Games or Take-Two Interactive.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var modal=document.getElementById('preorder-modal');
+  var fab=document.getElementById('preorder-fab');
+  function open(){modal.classList.add('open');}
+  function close(){modal.classList.remove('open');try{localStorage.setItem('pmSeen','1');}catch(e){}}
+  fab.addEventListener('click',open);
+  document.getElementById('pm-close').addEventListener('click',close);
+  modal.addEventListener('click',function(e){if(e.target===modal)close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  var seen=false;try{seen=localStorage.getItem('pmSeen')==='1';}catch(e){}
+  if(!seen){setTimeout(open,2500);}
+})();
+</script>
+<!-- ===== End Preorder Promo ===== -->
   </main>
 
 <script>

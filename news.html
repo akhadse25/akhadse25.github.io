@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News — gtageek.me</title>
+<meta name="description" content="The latest Rockstar Games, Take-Two Interactive and Grand Theft Auto VI news — curated for fans, with sources.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gtageek.me/news.html">
+<meta property="og:title" content="GTA VI News — gtageek.me">
+<meta property="og:description" content="Rockstar Games, Take-Two Interactive and Grand Theft Auto VI news — curated for fans, with sources.">
+<meta property="og:image" content="https://gtageek.me/og-image.png">
+<meta property="og:site_name" content="gtageek.me">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GTA VI News — gtageek.me">
+<meta name="twitter:description" content="Rockstar Games, Take-Two Interactive and Grand Theft Auto VI news — curated for fans, with sources.">
+<meta name="twitter:image" content="https://gtageek.me/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext x='8' y='48' font-size='44' font-family='sans-serif' font-weight='bold' fill='%23ff2e88'%3EVI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --night-0:#08010f;
+    --night-1:#1a0b2e;
+    --night-2:#3b1654;
+    --mag:#ff2e88;
+    --mag-soft:#ff5cab;
+    --orange:#ff8c42;
+    --gold:#ffd25a;
+    --cyan:#2de2e6;
+    --ink:#fbe9ff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Space Mono",monospace;
+    color:var(--ink);
+    background:
+      radial-gradient(120% 60% at 50% 0%, rgba(255,46,136,.14) 0%, transparent 55%),
+      linear-gradient(180deg, var(--night-0) 0%, var(--night-1) 60%, var(--night-2) 100%);
+    min-height:100vh;
+    padding:0 1.25rem 4rem;
+  }
+  .topnav{
+    position:sticky;top:0;z-index:60;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:.75rem clamp(1rem,4vw,2rem);
+    margin:0 -1.25rem 2.5rem;
+    background:rgba(8,1,15,.72);
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border-bottom:1px solid rgba(255,92,171,.25);
+  }
+  .topnav a{font-family:"Space Mono",monospace;text-decoration:none;text-transform:uppercase;letter-spacing:.22em;font-size:.7rem}
+  .topnav .brand{color:var(--cyan);text-shadow:0 0 8px rgba(45,226,230,.6)}
+  .topnav .nav-links{display:flex;gap:.6rem;align-items:center}
+  .topnav .nav-links a{
+    color:var(--ink);border:1px solid rgba(255,92,171,.35);border-radius:8px;
+    padding:.55rem 1.1rem;background:rgba(255,46,136,.06);transition:background .2s;
+  }
+  .topnav .nav-links a:hover{background:rgba(255,46,136,.22)}
+  .topnav .nav-links a.active{background:rgba(255,46,136,.28);box-shadow:0 0 14px rgba(255,46,136,.4)}
+  .wrap{max-width:760px;margin:0 auto}
+  .eyebrow{
+    font-size:.68rem;letter-spacing:.55em;text-transform:uppercase;
+    color:var(--cyan);text-shadow:0 0 10px rgba(45,226,230,.8);
+    margin-bottom:.9rem;padding-left:.55em;
+  }
+  h1{
+    font-family:"Anton",sans-serif;text-transform:uppercase;line-height:1;
+    font-size:clamp(2.4rem,8vw,4.2rem);margin-bottom:.6rem;
+    background:linear-gradient(180deg,#fff 0%,var(--gold) 30%,var(--orange) 60%,var(--mag) 100%);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 0 22px rgba(255,46,136,.45));
+  }
+  .lede{font-size:.85rem;line-height:1.7;color:rgba(251,233,255,.72);margin-bottom:2.6rem;max-width:60ch}
+  .lede a{color:var(--cyan)}
+  article.post{
+    border:1px solid rgba(255,92,171,.35);border-radius:14px;
+    background:rgba(26,11,46,.55);
+    box-shadow:0 0 30px rgba(255,46,136,.12);
+    padding:clamp(1.4rem,4vw,2.2rem);
+    margin-bottom:2rem;
+  }
+  article.post .date{
+    font-size:.62rem;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--cyan);margin-bottom:.8rem;
+  }
+  article.post h2{
+    font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.02em;
+    font-size:clamp(1.4rem,4.5vw,2rem);line-height:1.1;color:#fff;
+    text-shadow:0 0 14px rgba(255,92,171,.5);margin-bottom:1rem;
+  }
+  article.post .body p{font-size:.86rem;line-height:1.75;color:rgba(251,233,255,.85);margin-bottom:1rem}
+  article.post .body p:last-child{margin-bottom:0}
+  article.post .body a{color:var(--cyan)}
+  article.post .body strong{color:var(--gold)}
+  .sources{margin-top:1.4rem;padding-top:1.1rem;border-top:1px dashed rgba(255,92,171,.3)}
+  .sources h3{
+    font-size:.62rem;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--mag-soft);margin-bottom:.7rem;
+  }
+  .sources ul{list-style:none}
+  .sources li{margin-bottom:.45rem;font-size:.76rem;line-height:1.5}
+  .sources li::before{content:"▸ ";color:var(--cyan)}
+  .sources a{color:var(--cyan);text-decoration:none;border-bottom:1px dotted rgba(45,226,230,.5)}
+  .sources a:hover{border-bottom-style:solid}
+  .empty{
+    text-align:center;padding:3rem 1rem;color:rgba(251,233,255,.5);
+    border:1px dashed rgba(255,92,171,.3);border-radius:14px;font-size:.85rem;line-height:1.7;
+  }
+  footer{margin-top:3.5rem;text-align:center;font-size:.62rem;letter-spacing:.12em;
+    text-transform:uppercase;color:rgba(251,233,255,.4);line-height:2}
+  footer a{color:var(--cyan);text-decoration:none}
+</style>
+</head>
+<body>
+  <nav class="topnav">
+    <a class="brand" href="index.html">gtageek.me</a>
+    <div class="nav-links">
+      <a href="index.html">Countdown</a>
+      <a href="news.html" class="active">News</a>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <p class="eyebrow">Transmissions from Leonida</p>
+    <h1>News</h1>
+    <p class="lede">Every signal worth catching about <strong>Rockstar Games</strong>, <strong>Take-Two Interactive</strong> and <strong>Grand Theft Auto VI</strong> — curated for fans, with sources linked so you can verify everything yourself. No filler, no ad traps.</p>
+
+    <div id="posts"><div class="empty">Tuning the radio…</div></div>
+
+    <footer>
+      Unofficial fan site — not affiliated with Rockstar Games or Take-Two Interactive.<br>
+      <a href="index.html">← Back to the countdown</a>
+    </footer>
+  </div>
+
+<script>
+(function(){
+  function esc(s){
+    return String(s).replace(/[&<>"]/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+    });
+  }
+  fetch("news/posts.json", {cache:"no-store"})
+    .then(function(r){ if(!r.ok) throw new Error("feed unavailable"); return r.json(); })
+    .then(function(data){
+      var posts = (data && data.posts) || [];
+      var box = document.getElementById("posts");
+      if(!posts.length){
+        box.innerHTML = '<div class="empty">No transmissions yet — check back soon.</div>';
+        return;
+      }
+      posts.sort(function(a,b){ return (b.date||"").localeCompare(a.date||""); });
+      box.innerHTML = posts.map(function(p){
+        var body = (p.body||[]).join("");
+        var sources = (p.sources||[]).map(function(s){
+          return '<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+'</a></li>';
+        }).join("");
+        return '<article class="post">'
+          + '<p class="date">'+esc(p.date||"")+'</p>'
+          + '<h2>'+esc(p.title||"")+'</h2>'
+          + '<div class="body">'+body+'</div>'
+          + (sources ? '<div class="sources"><h3>Sources</h3><ul>'+sources+'</ul></div>' : '')
+          + '</article>';
+      }).join("");
+    })
+    .catch(function(){
+      document.getElementById("posts").innerHTML =
+        '<div class="empty">The signal dropped — the news feed could not be loaded. Try refreshing.</div>';
+    });
+})();
+</script>
+</body>
+</html>

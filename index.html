@@ -229,9 +229,31 @@
   @media (prefers-reduced-motion:reduce){
     .grid,.sep,.wordmark .vi{animation:none}
   }
+
+  /* top nav */
+  .topnav{
+    position:fixed;top:0;left:0;right:0;z-index:60;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:.75rem clamp(1rem,4vw,2rem);
+    background:rgba(8,1,15,.55);
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border-bottom:1px solid rgba(255,92,171,.25);
+  }
+  .topnav a{font-family:"Space Mono",monospace;text-decoration:none;text-transform:uppercase;letter-spacing:.22em;font-size:.7rem}
+  .topnav .brand{color:var(--cyan);text-shadow:0 0 8px rgba(45,226,230,.6)}
+  .topnav .news-link{
+    color:var(--ink);border:1px solid var(--mag-soft);border-radius:8px;
+    padding:.55rem 1.1rem;background:rgba(255,46,136,.08);
+    box-shadow:0 0 12px rgba(255,46,136,.22);transition:background .2s,box-shadow .2s;
+  }
+  .topnav .news-link:hover{background:rgba(255,46,136,.25);box-shadow:0 0 20px rgba(255,46,136,.5)}
 </style>
 </head>
 <body>
+  <nav class="topnav">
+    <a class="brand" href="index.html">gtageek.me</a>
+    <a class="news-link" href="news.html">News</a>
+  </nav>
   <div class="sky" aria-hidden="true"></div>
   <div class="sun" aria-hidden="true"></div>
   <div class="grid" aria-hidden="true"></div>

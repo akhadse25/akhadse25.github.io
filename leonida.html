@@ -107,6 +107,27 @@
   .place h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.04em;
     font-size:1.02rem;color:#fff;margin-bottom:.3rem}
   .place p{font-size:.78rem}
+  .cast{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.1rem}
+  @media(max-width:640px){.cast{grid-template-columns:1fr}}
+  .cast-card{border:1px solid rgba(45,226,230,.28);border-radius:10px;padding:1rem 1.1rem;background:rgba(8,1,15,.45)}
+  .cast-card h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.05em;
+    font-size:.95rem;color:var(--cyan);text-shadow:0 0 10px rgba(45,226,230,.5);margin-bottom:.35rem}
+  .cast-card p{font-size:.76rem;line-height:1.65;color:rgba(251,233,255,.8);margin:0}
+  .edition{border:1px solid rgba(255,210,90,.3);border-radius:10px;padding:1.1rem 1.2rem;
+    margin-bottom:.9rem;background:rgba(8,1,15,.45)}
+  .edition h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.04em;
+    font-size:1.05rem;color:#fff;margin-bottom:.4rem}
+  .ed-price{font-family:"Anton",sans-serif;color:var(--gold);font-size:1.25rem;margin-left:.5rem;
+    text-shadow:0 0 12px rgba(255,210,90,.5)}
+  .edition p{font-size:.78rem;line-height:1.7;color:rgba(251,233,255,.8);margin-bottom:.4rem}
+  .buy-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.75rem}
+  .buy-btn{display:inline-block;font-family:"Anton",sans-serif;letter-spacing:.06em;text-transform:uppercase;
+    font-size:.82rem;padding:.75rem 1.25rem;border-radius:8px;text-decoration:none;
+    background:linear-gradient(135deg,#ff9900,#ff6a00);color:#160a02;
+    box-shadow:0 0 18px rgba(255,140,0,.45);transition:transform .15s}
+  .buy-btn:hover{transform:translateY(-2px)}
+  .buy-btn.ghost{background:rgba(255,46,136,.1);color:var(--ink);border:1px solid var(--mag-soft);box-shadow:none}
+  .aff-disc{font-size:.62rem!important;line-height:1.7!important;color:rgba(251,233,255,.45)!important;margin-top:.9rem!important}
   .sources{list-style:none}
   .sources li{margin-bottom:.7rem;font-size:.8rem;line-height:1.6}
   .sources li:last-child{margin-bottom:0}
@@ -163,9 +184,43 @@
     </section>
 
     <section class="card">
-      <h2>Who you'll meet</h2>
-      <p>The story follows two protagonists: <strong>Jason Duval</strong>, an ex-soldier drifting through the Keys' smuggling underworld after his Army stint didn't stick, and <strong>Lucia Caminos</strong>, freshly out of the Leonida Penitentiary and done playing it safe. Their plan — and each other — is the way out.</p>
-      <p>Around them orbits a very GTA supporting cast: a conspiracy-minded friend who monitors Coast Guard radio, a Vice City music mogul and his fledgling label, a viral rap duo chasing a second hit, a veteran bank robber always recruiting for the next score, and an old-school Keys smuggler who lets Jason live rent-free. Rockstar profiles all eight on its official VI site — linked below.</p>
+      <h2>The Faces of Leonida</h2>
+      <p>Eight characters are confirmed so far — here they are in our own words. Full official profiles are linked in Sources.</p>
+      <div class="cast">
+        <div class="cast-card"><h3>Jason Duval</h3><p>An ex-soldier trying to outrun a youth spent around grifters and crooks. These days he runs jobs for smugglers in the Leonida Keys — and meeting Lucia might be the best or worst thing that ever happened to him.</p></div>
+        <div class="cast-card"><h3>Lucia Caminos</h3><p>Raised to fight by her father, she did time in the Leonida Penitentiary for standing up for her family. Out now with one rule — only smart moves — and a plan to take the good life instead of waiting for it.</p></div>
+        <div class="cast-card"><h3>Cal Hampton</h3><p>Jason's friend and fellow hanger-on, happiest at home with a few beers, Coast Guard radio chatter, and a browser full of conspiracy theories. Casual paranoia, fully committed.</p></div>
+        <div class="cast-card"><h3>Boobie Ike</h3><p>A Vice City legend who converted street money into a legitimate empire spanning real estate, a strip club, and a recording studio. All smiles — until it's time to talk business.</p></div>
+        <div class="cast-card"><h3>Dre'Quan Priest</h3><p>More hustler than gangster. He booked acts for Boobie's club while chasing a music career; now he runs Only Raw Records. He just needs a hit.</p></div>
+        <div class="cast-card"><h3>Real Dimez</h3><p>Bae-Luxe and Roxy — friends since high school who turned street savvy into viral rap tracks and a relentless social media presence. Signed to Only Raw, one hit away from fame.</p></div>
+        <div class="cast-card"><h3>Raul Bautista</h3><p>A seasoned, charming bank robber forever hunting for talent bold enough to chase the biggest scores. Experience counts — but his recklessness raises the stakes every time.</p></div>
+        <div class="cast-card"><h3>Brian Heder</h3><p>A golden-age Keys smuggler from the drug-running heyday, still moving product through his boat yard alongside his third wife. He lets Jason live rent-free — for a price.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Editions &amp; Pre-Orders</h2>
+      <p>Three ways to buy into GTA VI. Read the fine print: <strong>no edition includes a physical disc</strong> — even boxed copies ship with a download code.</p>
+      <div class="edition">
+        <h3>Standard Edition <span class="ed-price">$79.99</span></h3>
+        <p>The full game on PS5 and Xbox Series X|S, plus the <em>Vintage Vice City Pack</em> pre-order bonus. Ships November 12 so you can pre-load; playable November 19. When pre-orders opened in June, Amazon US sold out within hours — stock comes and goes.</p>
+        <div class="buy-row">
+          <a class="buy-btn" href="https://amzn.to/4aZHeTM" target="_blank" rel="noopener sponsored">Pre-order — PS5</a>
+          <a class="buy-btn" href="https://www.amazon.com/s?k=Grand+Theft+Auto+VI+Xbox+Series+X&tag=myfansite26-20" target="_blank" rel="noopener sponsored">Pre-order — Xbox</a>
+        </div>
+      </div>
+      <div class="edition">
+        <h3>Ultimate Edition <span class="ed-price">$99.99</span></h3>
+        <p>Everything in Standard, plus extra in-game content — bonus vehicles, weapon skins, and exclusive side missions. Available through the PlayStation Store, Xbox Store, and select retailers.</p>
+      </div>
+      <div class="edition">
+        <h3>Vice City Collection <span class="ed-price">$399.99</span></h3>
+        <p>The collector's box: 11 Leonida-themed collectibles including the Macca the Gator figure, Oakley Frogskins, and a double-sided Leonida map poster. <strong>The game is not included</strong> — sold separately. Rockstar Store exclusive, one per customer.</p>
+        <div class="buy-row">
+          <a class="buy-btn ghost" href="https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection" target="_blank" rel="noopener">Rockstar Store</a>
+        </div>
+      </div>
+      <p class="aff-disc">As an Amazon Associate, gtageek.me earns from qualifying purchases. Prices and availability change — check the retailer for the latest.</p>
     </section>
 
     <section class="card">

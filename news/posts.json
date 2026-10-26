@@ -198,6 +198,31 @@
           "url": "https://www.businesswire.com/news/home/20261013510921/en/Take-Two-Interactive-Software-Inc.-to-Report-Second-Quarter-Fiscal-Year-2027-Results-on-Monday-November-9-2026"
         }
       ]
+    },
+    {
+      "id": "2026-10-26-preorders-interiors",
+      "date": "2026-10-26",
+      "title": "An estimated 6.45 million pre-orders — and hundreds of doors to open: GTA VI's final 24 days in numbers",
+      "body": [
+        "<p><strong>Estimated, not official — but enormous either way.</strong> Analytics firm Sensor Tower estimates GTA VI had reached around <strong>6.45 million digital pre-orders</strong> as of October 20, worth an estimated <strong>$630 million</strong> — up roughly 370,000 copies in a week from about 6.08 million on October 13. PlayStation 5 accounts for about 4.8 million of those (roughly $468 million), Xbox Series X|S about 1.66 million ($162 million), a split of roughly 74% to 26%. Rockstar and Take-Two have <em>not</em> confirmed the figures, and they exclude physical retail pre-orders, so the real total could be higher. Why it matters: this is a game with no reviews, no hands-on previews, and no PC version announced — and it may already have banked more pre-launch revenue than most games earn in a lifetime.</p>",
+        "<p>What those millions of players will actually <em>do</em> in Leonida got a little clearer this weekend. ComicBook reports Rockstar has confirmed, via TGG, that GTA VI will have <strong>hundreds of enterable interiors</strong>, interactable to various degrees — no exact number given. For scale, GTA V launched with about 70 to 80, and the last trip to Vice City had roughly 20, none of them really interactive. Why it matters: Rockstar isn't winning this generation by making the map vastly bigger than GTA V or Red Dead Redemption 2 — it's winning on <strong>depth</strong>. More doors that actually open fits everything else we've heard: a Bonnie-and-Clyde story built around robberies, and NPCs written as main characters in their own stories. Leonida isn't just wider. It's thicker.</p>",
+        "<p>And a coda from Rockstar's past explains why that design philosophy matters. Co-founder Dan Houser has explained why the studio's long-gestating spy game <strong>Agent</strong> — announced in 2009 as a PlayStation 3 exclusive, worked on by two or three different teams — was ultimately cancelled: espionage demands urgency and constant location-hopping, while Rockstar games ask you to slow down, explore, and get sidetracked. The two instincts, Houser argued, undermined each other. It's a useful lens on GTA VI: a crime saga <em>rewards</em> wandering Vice City and poking into every interior. A spy thriller punished it. Rockstar didn't just pick a setting for GTA VI — it picked a genre its open worlds were built for.</p>",
+        "<p>The calendar from here is short and sweet: <strong>November 9</strong> (Take-Two earnings), <strong>November 12</strong> (pre-load), <strong>November 19</strong> (Leonida). Twenty-four days. The ticker's on the homepage.</p>"
+      ],
+      "sources": [
+        {
+          "label": "SportsTiger — GTA 6 Pre-Orders estimated at 6.45 million ahead of November launch",
+          "url": "https://www.sportstiger.com/esports/gta-6-pre-orders-estimated-at-6-45-million-ahead-of-november-launch/"
+        },
+        {
+          "label": "ComicBook — Rockstar Games Confirms One of GTA 6's Biggest Upgrades From Grand Theft Auto V",
+          "url": "https://comicbook.com/gaming/news/gta-6-grand-theft-auto-v-rockstar-games-biggest-upgrade/"
+        },
+        {
+          "label": "GameGPU — Rockstar tried to create a spy GTA, but the Agent project failed",
+          "url": "https://en.gamegpu.com/news/igry/rockstar-pytalas-sozdat-shpionskuyu-gta-no-proekt-agent-provalilsya"
+        }
+      ]
     }
   ]
 }

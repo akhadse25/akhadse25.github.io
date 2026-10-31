@@ -107,12 +107,40 @@
   .place h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.04em;
     font-size:1.02rem;color:#fff;margin-bottom:.3rem}
   .place p{font-size:.78rem}
-  .cast{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.1rem}
+  .cast{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.1rem}
   @media(max-width:640px){.cast{grid-template-columns:1fr}}
-  .cast-card{border:1px solid rgba(45,226,230,.28);border-radius:10px;padding:1rem 1.1rem;background:rgba(8,1,15,.45)}
+  .cast-card{
+    --acc:#2de2e6;
+    position:relative;overflow:hidden;
+    border:1px solid color-mix(in srgb, var(--acc) 45%, transparent);
+    border-top:3px solid var(--acc);
+    border-radius:14px;padding:1.15rem 1.2rem 1.25rem;
+    background:
+      radial-gradient(120% 90% at 15% 0%, color-mix(in srgb, var(--acc) 16%, transparent) 0%, transparent 55%),
+      rgba(8,1,15,.55);
+    transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .cast-card:hover{transform:translateY(-3px);box-shadow:0 10px 28px -12px color-mix(in srgb, var(--acc) 65%, transparent)}
+  .cast-card.hero{grid-column:1/-1;display:flex;gap:1.2rem;align-items:flex-start}
+  @media(max-width:640px){.cast-card.hero{display:block}}
+  .cast-card .medal{
+    flex:0 0 auto;width:3.4rem;height:3.4rem;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"Anton",sans-serif;font-size:1.15rem;letter-spacing:.03em;color:#0b0214;
+    background:linear-gradient(135deg, var(--acc), color-mix(in srgb, var(--acc) 45%, #ff2e88));
+    box-shadow:0 0 18px color-mix(in srgb, var(--acc) 70%, transparent);
+    margin-bottom:.8rem;
+  }
+  .cast-card.hero .medal{width:4.2rem;height:4.2rem;font-size:1.45rem;margin-bottom:0}
+  @media(max-width:640px){.cast-card.hero .medal{margin-bottom:.8rem}}
+  .cast-card .tag{
+    display:inline-block;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--acc);border:1px solid color-mix(in srgb, var(--acc) 55%, transparent);
+    border-radius:999px;padding:.28rem .7rem;margin-bottom:.55rem;
+  }
   .cast-card h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.05em;
-    font-size:.95rem;color:var(--cyan);text-shadow:0 0 10px rgba(45,226,230,.5);margin-bottom:.35rem}
-  .cast-card p{font-size:.76rem;line-height:1.65;color:rgba(251,233,255,.8);margin:0}
+    font-size:1.05rem;color:#fff;text-shadow:0 0 12px color-mix(in srgb, var(--acc) 55%, transparent);margin-bottom:.4rem}
+  .cast-card p{font-size:.78rem;line-height:1.7;color:rgba(251,233,255,.85);margin:0}
   .edition{border:1px solid rgba(255,210,90,.3);border-radius:10px;padding:1.1rem 1.2rem;
     margin-bottom:.9rem;background:rgba(8,1,15,.45)}
   .edition h3{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.04em;
@@ -187,14 +215,14 @@
       <h2>The Faces of Leonida</h2>
       <p>Eight characters are confirmed so far — here they are in our own words. Full official profiles are linked in Sources.</p>
       <div class="cast">
-        <div class="cast-card"><h3>Jason Duval</h3><p>An ex-soldier trying to outrun a youth spent around grifters and crooks. These days he runs jobs for smugglers in the Leonida Keys — and meeting Lucia might be the best or worst thing that ever happened to him.</p></div>
-        <div class="cast-card"><h3>Lucia Caminos</h3><p>Raised to fight by her father, she did time in the Leonida Penitentiary for standing up for her family. Out now with one rule — only smart moves — and a plan to take the good life instead of waiting for it.</p></div>
-        <div class="cast-card"><h3>Cal Hampton</h3><p>Jason's friend and fellow hanger-on, happiest at home with a few beers, Coast Guard radio chatter, and a browser full of conspiracy theories. Casual paranoia, fully committed.</p></div>
-        <div class="cast-card"><h3>Boobie Ike</h3><p>A Vice City legend who converted street money into a legitimate empire spanning real estate, a strip club, and a recording studio. All smiles — until it's time to talk business.</p></div>
-        <div class="cast-card"><h3>Dre'Quan Priest</h3><p>More hustler than gangster. He booked acts for Boobie's club while chasing a music career; now he runs Only Raw Records. He just needs a hit.</p></div>
-        <div class="cast-card"><h3>Real Dimez</h3><p>Bae-Luxe and Roxy — friends since high school who turned street savvy into viral rap tracks and a relentless social media presence. Signed to Only Raw, one hit away from fame.</p></div>
-        <div class="cast-card"><h3>Raul Bautista</h3><p>A seasoned, charming bank robber forever hunting for talent bold enough to chase the biggest scores. Experience counts — but his recklessness raises the stakes every time.</p></div>
-        <div class="cast-card"><h3>Brian Heder</h3><p>A golden-age Keys smuggler from the drug-running heyday, still moving product through his boat yard alongside his third wife. He lets Jason live rent-free — for a price.</p></div>
+        <div class="cast-card hero" style="--acc:#2de2e6"><span class="medal" aria-hidden="true">JD</span><div><span class="tag">Protagonist</span><h3>Jason Duval</h3><p>An ex-soldier trying to outrun a youth spent around grifters and crooks. These days he runs jobs for smugglers in the Leonida Keys — and meeting Lucia might be the best or worst thing that ever happened to him.</p></div></div>
+        <div class="cast-card hero" style="--acc:#ff2e88"><span class="medal" aria-hidden="true">LC</span><div><span class="tag">Protagonist</span><h3>Lucia Caminos</h3><p>Raised to fight by her father, she did time in the Leonida Penitentiary for standing up for her family. Out now with one rule — only smart moves — and a plan to take the good life instead of waiting for it.</p></div></div>
+        <div class="cast-card" style="--acc:#ffd25a"><span class="medal" aria-hidden="true">CH</span><span class="tag">Hanger-on</span><h3>Cal Hampton</h3><p>Jason's friend and fellow hanger-on, happiest at home with a few beers, Coast Guard radio chatter, and a browser full of conspiracy theories. Casual paranoia, fully committed.</p></div>
+        <div class="cast-card" style="--acc:#ff8c42"><span class="medal" aria-hidden="true">BI</span><span class="tag">Vice City legend</span><h3>Boobie Ike</h3><p>A Vice City legend who converted street money into a legitimate empire spanning real estate, a strip club, and a recording studio. All smiles — until it's time to talk business.</p></div>
+        <div class="cast-card" style="--acc:#b967ff"><span class="medal" aria-hidden="true">DP</span><span class="tag">Only Raw Records</span><h3>Dre'Quan Priest</h3><p>More hustler than gangster. He booked acts for Boobie's club while chasing a music career; now he runs Only Raw Records. He just needs a hit.</p></div>
+        <div class="cast-card" style="--acc:#ff5cab"><span class="medal" aria-hidden="true">RD</span><span class="tag">Rap duo</span><h3>Real Dimez</h3><p>Bae-Luxe and Roxy — friends since high school who turned street savvy into viral rap tracks and a relentless social media presence. Signed to Only Raw, one hit away from fame.</p></div>
+        <div class="cast-card" style="--acc:#3dff8e"><span class="medal" aria-hidden="true">RB</span><span class="tag">Bank robber</span><h3>Raul Bautista</h3><p>A seasoned, charming bank robber forever hunting for talent bold enough to chase the biggest scores. Experience counts — but his recklessness raises the stakes every time.</p></div>
+        <div class="cast-card" style="--acc:#4da6ff"><span class="medal" aria-hidden="true">BH</span><span class="tag">Keys smuggler</span><h3>Brian Heder</h3><p>A golden-age Keys smuggler from the drug-running heyday, still moving product through his boat yard alongside his third wife. He lets Jason live rent-free — for a price.</p></div>
       </div>
     </section>
 

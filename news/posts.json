@@ -248,6 +248,31 @@
           "url": "https://provengamer.com/2026/10/28/rockstar-workers-will-vote-on-a-union-right-in-the-middle-of-gta-vi-launch-week/"
         }
       ]
+    },
+    {
+      "id": "2026-11-02-edge-hands-on-leonida-systems",
+      "date": "2026-11-02",
+      "title": "Edge played GTA VI for 90 minutes: a map twice GTA V's size, cops who remember your clothes, and a relationship meter for Jason and Lucia",
+      "body": [
+        "<p>Seventeen days out, Rockstar has stopped teasing and started <em>showing</em>. <strong>Edge magazine's</strong> November 2026 issue is built on a roughly 90-minute session in which Rockstar North co-studio head <strong>Rob Nelson</strong> played a current build on PS5 — and it came with 14 Rockstar-provided images, 12 of them brand new, including an underwater shot of a hammerhead shark gliding through a coral passage. Nelson told Edge the game is <strong>\"ready\"</strong> and reiterated confidence in <strong>November 19</strong>. After two delays, a hands-on demo to the press is the loudest \"it's really happening\" Rockstar can give.</p>",
+        "<p>The headline numbers are absurd in the best way. Leonida's landmass is roughly <strong>twice GTA V's</strong> — close to GTA IV, GTA V, and Red Dead Redemption 2 combined — and Rockstar has reportedly built around <strong>600,000 NPC animations</strong>. But the animation count is the least interesting part: pedestrians have individual personality traits, so staring at a man walking his dog can end with him confronting you and setting the dog on you. NPCs surrender or fight back during carjackings, help cops during robberies, and react differently depending on whether Jason carries a shotgun in his hands or slung over his back. Cars now have fuel gauges and engine health. This is the density story Rockstar has been telling since the Love magazine feature — now with receipts.</p>",
+        "<p>The systems underneath are what will actually change how you play. Jason and Lucia's relationship is tracked on a <strong>four-point scale</strong> that grows through shared activities — walking, cycling, working out, driving together. A separate <strong>Criminal Profile</strong>, from Professional to Irredeemable, tracks how you behave, and you can intimidate or incapacitate enemies instead of killing them, with consequences for how the story unfolds. Some story missions won't start until the pair have the cash, raised by robbing petrol stations, hitting jewellery stores, or stealing cars that fences have asked for. And the police now <strong>remember what they saw</strong> — your clothes, weapons, vehicles, and CCTV sightings — so ditching the outfit matters as much as ditching the car, especially with spike strips and K9 units in their arsenal. Add scheduled, rideable buses and trains, weapons stored in a vehicle trunk, cars summoned through Scooter Bros, and weather driven by wind, humidity, fog, time of day, and seasons — storms you can watch forming in the distance, surfaces drying at different rates — and Leonida stops sounding like a map and starts sounding like a place.</p>",
+        "<p>One thing to file under noise, not news: a fake social post claiming a delay to March 2027 circulated last week. It is <strong>not real</strong> — Rockstar's official site still lists November 19, and there is no indication the date has moved. The Edge session is the opposite of that rumor: a studio confident enough to let a journalist watch its game, played live, 17 days from launch. Pre-load opens <strong>November 12</strong>. The ticker's on the homepage.</p>"
+      ],
+      "sources": [
+        {
+          "label": "GamesHub — Rockstar drops 12 new GTA 6 screenshots and gameplay details three weeks before launch",
+          "url": "https://www.gameshub.com/news/article/gta-6-12-new-screenshots-three-weeks-before-launch-2919042/"
+        },
+        {
+          "label": "Prima Games — GTA 6 Details Reveal Massive Map, Smarter Cops, and 600,000 NPC Animations",
+          "url": "https://primagames.com/news/gta-6-details-reveal-massive-map-smarter-cops-and-600000-npc-animations"
+        },
+        {
+          "label": "Men's Journal — Has GTA 6 Been Delayed Again? What to Know",
+          "url": "https://www.mensjournal.com/news/has-gta-6-been-delayed-again-what-to-know"
+        }
+      ]
     }
   ]
 }

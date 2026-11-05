@@ -273,6 +273,36 @@
           "url": "https://www.mensjournal.com/news/has-gta-6-been-delayed-again-what-to-know"
         }
       ]
+    },
+    {
+      "id": "2026-11-05-preload-moved-up-212gb",
+      "date": "2026-11-05",
+      "title": "Pre-load just moved up to November 10 — and it's 212 GB: clear your drive now",
+      "body": [
+        "<p>Rockstar just moved the goalposts — in the good direction. Digital pre-load for GTA VI now opens on <strong>Tuesday, November 10</strong>, two days earlier than the November 12 date printed on earlier order forms. On PS5 it starts at <strong>midnight local time</strong>; on Xbox Series X|S it opens globally at midnight GMT, which is <strong>7 PM Eastern on Monday, November 9</strong>. The file needs <strong>up to 212 GB</strong> of free space, depending on your device. Code-in-box buyers still wait until November 12, when retailers start handing out codes.</p>",
+        "<p>Why it matters: 212 GB is the biggest download most players will ever queue, and launch week is the worst possible time to discover your drive is full. At a gigabit connection that's roughly half an hour; at 10 Mbps it's the better part of two days. Rockstar giving everyone two extra days is the studio quietly admitting the obvious — the download is the first boss fight. Clear the space now, not on the 10th. Rockstar also slipped a <strong>$1 double-sided poster</strong> — cover art on one side, map on the other — onto its merch store, free with another purchase.</p>",
+        "<p>The pre-order pile keeps growing, too. Sensor Tower's latest estimate puts GTA VI at <strong>7.71 million digital pre-orders as of November 3</strong> — about <strong>$751 million</strong> — up from the 6.45 million we reported on October 26. PlayStation accounts for roughly 5.74 million of those, Xbox about 1.97 million. <em>Estimated, not official:</em> Rockstar and Take-Two have confirmed none of it, and physical retail pre-orders aren't counted. But the direction of travel is unmistakable: with two weeks to go, the game has already banked more pre-launch revenue than most games earn in a lifetime.</p>",
+        "<p>Take-Two CEO Strauss Zelnick spent Tuesday at the Wall Street Journal's Tech conference in Napa, and the exchange was pure Zelnick. Asked whether Take-Two lacks \"enough hits\" beyond GTA, he rattled off the numbers — <strong>15 franchises that have each sold at least 5 million copies</strong> in a single release, Red Dead Redemption past <strong>65 million</strong> — and closed with \"examine the facts?\" He also repeated, again, that GTA VI is handcrafted and that generative AI has no part in it. Two weeks out, the message from the top is steady-as-she-goes: no new promises, no hedging, just the numbers.</p>",
+        "<p><strong>Unconfirmed — treat as a report, not a fact:</strong> Insider Gaming reports a PlayStation France slip-up listed <strong>PSSR and Advanced Ray Tracing</strong> among GTA VI's PS5 Pro enhancements, with no 60 fps mode mentioned. Sony and Rockstar still haven't detailed the Pro version, so file this under \"plausible, not proven.\" The calendar from here is short: <strong>November 9</strong> (Take-Two earnings), <strong>November 10</strong> (pre-load), <strong>November 19</strong> (Leonida). <strong>14 days.</strong> The ticker's on the homepage.</p>"
+      ],
+      "sources": [
+        {
+          "label": "PlayStation Blog — Grand Theft Auto VI pre-download begins November 10",
+          "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/"
+        },
+        {
+          "label": "CyberGrokr — GTA 6 Pre-load Moved Up to Nov 10 for Digital Orders, Needs Up to 212 GB",
+          "url": "https://cybergrokr.com/news/gta-6-preload-moved-up-nov-10/"
+        },
+        {
+          "label": "Insider Gaming — Take-Two CEO Faces Bizarre Question Over Company's Lack of 'Enough Hits'",
+          "url": "https://insider-gaming.com/take-two-ceo-faces-bizarre-question-not-enough-hits/"
+        },
+        {
+          "label": "GTA6 LIFE — Sensor Tower pre-order estimate and PS5 Pro enhancement report",
+          "url": "https://gta6-life.com/en/in-brief/"
+        }
+      ]
     }
   ]
 }

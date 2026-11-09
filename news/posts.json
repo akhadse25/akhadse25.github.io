@@ -303,6 +303,36 @@
           "url": "https://gta6-life.com/en/in-brief/"
         }
       ]
+    },
+    {
+      "id": "2026-11-09-miami-vice-city-headline-wrong",
+      "date": "2026-11-09",
+      "title": "Miami voted 4-3 to become Vice City — and the $4 million headline is wrong",
+      "body": [
+        "<p>You've probably seen the headline: Miami approved a <strong>$4 million GTA VI takeover</strong>. It's wrong in almost every direction at once. There was no single approval, no single $4 million check, and no single \"Miami\" — <strong>three different South Florida governments</strong> cut separate deals with Rockstar, on different terms, and the coverage keeps mashing them into one story. The real version, dug out of city clerk records by the Daily Checkpoint, is better than the fake one.</p>",
+        "<p>Start with Miami Beach, where the City Commission voted <strong>4-3 on September 10</strong> to let its city manager negotiate a beach branding deal with Amplify Marketing, the agency Rockstar hired — and, unusually, to sign it without a second vote. The debate was pure Vice City: Commissioner David Suarez played GTA footage at the dais, narrating a police chase, and declared <em>\"I certainly don't want to see our brand associated with this video game.\"</em> Commissioner Monica Matteo-Salinas, who says she's played GTA since the original Vice City era, answered: <em>\"We're not giving away pistols and cocaine to people.\"</em> The argument that won the room came from Commissioner Tanya Katzoff Bhatt: <em>\"This is coming to Miami Beach with or without us.\"</em></p>",
+        "<p>Here's where the money actually went. The September resolution contains <strong>no dollar figure at all</strong>. The signed agreement, dated October 15 and surfaced by fan outlet GTAVice in city clerk records: a <strong>$300,000 activation fee</strong> to the city, a <strong>$4,000,000 fee funded by Rockstar to Boucher Brothers</strong>, the beach concessionaire — about half of which flows to the city under Boucher's own contract — plus a custom marketing car appraised at <strong>$643,443</strong>, auctioned in 2027 with proceeds to the city. So the $4 million exists; it just isn't a check to Miami, and it was never what the 4-3 vote approved. The vote approved opening negotiations. The money arrived a month later, in a document nobody held a press conference about.</p>",
+        "<p>Then there's the county, which never voted at all. Miami-Dade's mayor approved the giant pink <strong>\"Welcome to Vice City\"</strong> sign on the Kaseya Center roof herself — <strong>$975,000</strong>, exactly $25,000 below the line that would have forced a commission vote. The wider <strong>$3.9 million</strong> package announced October 28 is a package <em>value</em>, airport and transit media buys included, not a single payment. (A note on our own coverage: our October 29 post reported that $3.9 million figure as a deal — the county package part was right, the \"single deal\" framing wasn't.) The City of Miami proper passed its own ordinance for downtown banners up to 10,000 square feet, its preamble comparing this launch to the Super Bowl and the World Cup. And on October 25, the GTA VI logo ran on the pitchside LED boards at <strong>El Clásico</strong>. Rockstar didn't buy ads in Miami. It negotiated with three governments, survived a 4-3 vote and a sheriff's press release — <em>\"Miami-Dade County is not Vice City\"</em> — and put its release date on the boards at Camp Nou.</p>",
+        "<p>Two more notes from launch week. <strong>Justice's Grand Theft Auto VI: Original Score</strong> is listed for <strong>December 11</strong> — 50 tracks, vinyl and CD pre-orders, with the new single \"Pusher\" featuring Gesaffelstein out now. That's the score, not the 34-song album, which still lands November 19. And USA Today reports, via IGN, that Pompano Beach rapper <strong>Kodak Black will reportedly appear as an NPC</strong> — <em>reportedly</em>, not confirmed by Rockstar. Finally, tonight: <strong>Take-Two reports Q2 earnings at 4:30 PM Eastern</strong>, ten days before launch, and we'll have the numbers — and whatever Zelnick says about pre-order momentum — in the next post. Pre-load opens tomorrow, <strong>November 10</strong>. <strong>10 days.</strong> The ticker's on the homepage.</p>"
+      ],
+      "sources": [
+        {
+          "label": "The Daily Checkpoint — Miami Voted 4-3 to Become Vice City. The $4 Million Headline Is Wrong.",
+          "url": "https://thedailycheckpoint.com/miami-beach-gta-6-vice-city-deal-explained/"
+        },
+        {
+          "label": "USA Today — GTA VI releases soon. New marketing you may see in Miami-Dade",
+          "url": "https://www.usatoday.com/story/news/state/florida/miami/2026/11/05/miami-dade-gta-6-release-vice-city-sign-airport-train/92622605007/"
+        },
+        {
+          "label": "CyberGrokr — GTA VI News: Latest Verified Updates",
+          "url": "https://cybergrokr.com/news"
+        },
+        {
+          "label": "Tech Times — GTA VI Pre-Orders Surpass $750 Million; Take-Two Reports Q2 Earnings Monday",
+          "url": "https://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm"
+        }
+      ]
     }
   ]
 }

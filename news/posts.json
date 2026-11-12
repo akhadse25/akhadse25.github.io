@@ -333,6 +333,36 @@
           "url": "https://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm"
         }
       ]
+    },
+    {
+      "id": "2026-11-12-preorders-billion-30fps-cloud",
+      "date": "2026-11-12",
+      "title": "GTA VI just crossed $1 billion in pre-orders — and it's the most pre-ordered game in PlayStation Store history",
+      "body": [
+        "<p><strong>Estimated, not official — but the scale is now absurd.</strong> Sensor Tower estimates reported by <strong>The Washington Post</strong> on November 11 put GTA VI past <strong>10 million pre-orders</strong> and <strong>more than $1 billion</strong> in pre-order revenue, a week before launch. Sony and Microsoft have each independently said it is now the <strong>most pre-ordered game in their digital stores' history</strong>. For context: the same firm's estimate as of November 3 — the one we reported on November 5 — was 7.71 million copies and about $751 million. That's roughly 2.3 million more pre-orders in about a week, with physical retail pre-orders still uncounted. Take-Two CEO Strauss Zelnick told investors on Monday that pre-orders are <em>\"tracking far in excess of our initial expectations\"</em> — and then, in the same breath, refused to lift guidance: <em>\"we still aren't ready to declare victory.\"</em></p>",
+        "<p>Why it matters: no game has ever banked a billion dollars before a single review, before a single player has touched it, and with no PC version even announced. The pre-order pile is now the story of the launch itself — and it's why the rest of the industry is clearing the calendar. HR firm BambooHR reports time-off requests for <strong>November 19 are nearly 13% higher</strong> than comparable dates in 2024 and 2025, and <strong>18% of surveyed salaried US workers</strong> say they intend to take launch day off. One caveat worth keeping: a pre-order is not a sale until the game ships, and these are third-party estimates, not Rockstar's numbers. But the direction of travel has been one way for six weeks, and Zelnick's caution reads less like doubt than like a man who knows the real number lands in seven days.</p>",
+        "<p>Rockstar also settled the week's biggest technical argument. The studio confirmed GTA VI targets <strong>30 fps on current-generation consoles</strong>, with the PS5 Pro version adding PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows. No 60 fps mode has been announced anywhere. And Microsoft confirmed the escape hatch for the last generation: GTA VI will be playable on <strong>Xbox One via Xbox Cloud Gaming from 1 a.m. ET on November 19</strong>, streamed at Xbox Series S settings — and from November 11, cloud playtime can be bought individually in supported markets without a Game Pass subscription (you still have to buy the game). The message is unmistakable: if you own any Xbox or PlayStation from the last thirteen years, Rockstar has a way to get you into Leonida on day one.</p>",
+        "<p>One last launch-week door is still open, barely. The ticket lottery for <strong>GTA VI: The Festival</strong> — the one-night Miami show at Mana Wynwood on <strong>November 21</strong>, two days after launch — closed Tuesday at 4 p.m. ET, and winners could buy from noon yesterday. If you missed it, the <strong>DICE waitlist is live</strong>: tickets are <strong>$60</strong>, two per person, non-transferable, 17+, doors at 4 p.m. Joining the waitlist is not a ticket — offers go in the order people joined, only if holders re-list. And a warning worth repeating: tickets are tied to the buyer's DICE account, so anyone selling festival tickets on social media or resale sites is almost certainly selling you nothing.</p>",
+        "<p>The calendar from here is all countdown: pre-load has been live since Tuesday (clear <strong>212 GB</strong> if you haven't), the Rockstar UK union ballot opens today and runs through November 26, and <strong>November 19 is seven days away</strong>. The ticker's on the homepage.</p>"
+      ],
+      "sources": [
+        {
+          "label": "TradingView — GTA 6 pre-orders break records ahead of launch; Xbox One players can also play via cloud gaming",
+          "url": "https://www.tradingview.com/news/moodys:5d192265ce073:0-gta-6-pre-orders-break-records-ahead-of-launch-xbox-one-players-can-also-play-via-cloud-gaming/"
+        },
+        {
+          "label": "TheStreet — Take-Two isn't ready to 'declare victory' on GTA 6 before launch",
+          "url": "https://www.thestreet.com/investing/take-two-gta-6-declare-victory-preorders"
+        },
+        {
+          "label": "USA Today — Tickets for the GTA VI festival go on sale today. How to get one",
+          "url": "https://www.usatoday.com/story/news/state/florida/miami/2026/11/11/gta-6-festival-miami-tickets/92722158007/"
+        },
+        {
+          "label": "DICE — Grand Theft Auto VI: The Festival, Nov 21, Mana Wynwood, Miami",
+          "url": "https://dice.fm/event/783n2v-grand-theft-auto-vi-the-festival-21st-nov-mana-wynwood-miami-tickets?lng=en-US"
+        }
+      ]
     }
   ]
 }

@@ -363,6 +363,36 @@
           "url": "https://dice.fm/event/783n2v-grand-theft-auto-vi-the-festival-21st-nov-mana-wynwood-miami-tickets?lng=en-US"
         }
       ]
+    },
+    {
+      "id": "2026-11-16-preorders-1-18-billion-second-patch",
+      "date": "2026-11-16",
+      "title": "Three days out: GTA VI pre-orders now estimated at $1.18 billion — and a second patch just landed",
+      "body": [
+        "<p>The number just keeps climbing. Sensor Tower's latest tracker reading puts <strong>GTA VI digital pre-orders at 12.13 million copies, worth about $1.18 billion</strong>, as of the morning of Friday, November 13 — up from 10.31 million and roughly $1 billion in the same tracker's November 11 reading. That's close to a million copies a day in the final stretch, with PlayStation accounting for about three-quarters of the total.</p>",
+        "<p>Keep the caveat front and centre: this is a <em>third-party estimate</em>, not an official figure. Neither Rockstar nor Take-Two has confirmed any pre-order total. What Take-Two <em>has</em> said, through CEO Strauss Zelnick on CNBC on November 10, is that high expectations are <strong>\"being vastly exceeded so far\"</strong> — the same line he gave investors on the November 9 earnings call, when he added the company still isn't ready to \"declare victory\" before launch.</p>",
+        "<p>Why the estimate matters anyway: <em>GTA V</em> needed three days <em>after</em> launch to bank $1 billion, including $800 million in its first 24 hours. <em>GTA VI</em> is estimated to have cleared the same mark before a single copy is playable. Analysts cited by <em>The Observer</em> expect more than $5 billion in first-week revenue, and Bank of America has set a yardstick of $1.9 billion in the first three days. The real test starts Thursday — and Take-Two's own launch-quarter guidance of $3.35–3.5 billion in net bookings is the number to watch it against.</p>",
+        "<p>Rockstar, meanwhile, is still tuning the game. A second pre-launch update, version <strong>1.002.001</strong>, started rolling out today — about 602 MB on PS5 and 1.59 GB on Xbox — days after Friday's roughly 1 GB 1.002.000. Rockstar has published <strong>no patch notes for either</strong>, so don't read a day-one-patch label, a performance fix, or a hidden problem into them: last-minute updates are normal for a game this size, and the launch date hasn't moved.</p>",
+        "<p>One warning for the final three days: security researchers at ESET say fake <em>GTA VI</em> downloads and early-access offers are already circulating. Rockstar has announced <strong>no beta, no demo, and no early-access program</strong> — anything promising play before Thursday isn't real. Stick to the official stores, keep the pre-load (up to 212 GB) finished, and the game unlocks at <strong>midnight local time on Thursday, November 19</strong>.</p>"
+      ],
+      "sources": [
+        {
+          "label": "Ccaster — GTA 6 Pre-Orders Hit an Estimated $1.18 Billion",
+          "url": "https://www.ccaster.com/gta-6-pre-orders-1-billion-record/"
+        },
+        {
+          "label": "GTA6-Life — GTA 6 day one patch: versions 1.002 and 1.002.001",
+          "url": "https://gta6-life.com/en/guides/gta-6-day-one-patch/"
+        },
+        {
+          "label": "InfoSec Today — GTA VI isn't out yet – and the scams are already in full swing",
+          "url": "https://www.infosectoday.io/gta-vi-isnt-out-yet-and-the-scams-are-already-in-full-swing/"
+        },
+        {
+          "label": "USA Today — GTA 6 releases this week. Here's everything you need to know",
+          "url": "https://www.usatoday.com/story/tech/gaming/2026/11/16/gta-6-everything-to-know-preorder-story-actors-cost/92711409007/"
+        }
+      ]
     }
   ]
 }

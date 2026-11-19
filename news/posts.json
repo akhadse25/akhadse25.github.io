@@ -393,6 +393,36 @@
           "url": "https://www.usatoday.com/story/tech/gaming/2026/11/16/gta-6-everything-to-know-preorder-story-actors-cost/92711409007/"
         }
       ]
+    },
+    {
+        "id": "2026-11-19-launch-day-99-metacritic",
+        "date": "2026-11-19",
+        "title": "GTA VI is finally here — and the critics just gave it a 99",
+        "body": [
+            "<p>After 13 years, two delays, and a countdown that ran for months on this very homepage, <strong>Grand Theft Auto VI is out</strong>. The game unlocked at <strong>midnight local time on Thursday, November 19</strong>, rolling around the world from New Zealand, with the US unlocking at midnight Eastern. Jason Duval and Lucia Caminos are finally playable — and Leonida is open for business.</p>",
+            "<p>The verdict from critics is about as strong as review scores get. The embargo lifted as New Zealand unlocked, and the first wave put GTA VI at <strong>99 out of 100 on Metacritic</strong> — tying <em>The Legend of Zelda: Ocarina of Time</em> (1998) for the highest score in the site's history, with around 150 critics counted so far and every one of them positive. IGN's Luke Reilly wrote he sees <em>\"no real limit\"</em> to the time he could spend in Vice City; Bloomberg called it a masterpiece; the <em>New York Times</em> called it a game about love and relationships, not just chaos. One caveat: this is the critics' score on day one, before most players have finished — or started — a story reported to take about 50 hours. The players' verdict is still to come.</p>",
+            "<p>The commercial scale is just as absurd. Sensor Tower's latest estimate puts pre-launch sales at <strong>17.07 million copies and about $1.65 billion</strong> — up from the $1.18 billion we reported on Monday — and Take-Two's shares rose more than 6% on Wednesday as the reviews landed. <em>Estimated, not official:</em> Rockstar and Take-Two still haven't published a number. The launch broke streaming records too: nearly <strong>2.3 million people were watching GTA VI on Twitch</strong> by midday in Europe, and BambooHR reports one in five salaried US workers planned to take today off, with 32% more time off booked than the same day last year.</p>",
+            "<p>Launch night wasn't flawless. PS5 players reported <strong>PlayStation Network sign-in trouble within minutes of the US unlock</strong> — Sony's status page showed no outage — and there's a required PS5 system update of about 1.3 GB to install before you play, on top of the 212 GB game and Rockstar's pre-launch patch 1.002.001. If you're still downloading, you're not alone: install the system update first, then the game.</p>",
+            "<p>The countdown on this homepage has hit zero, but the week isn't over: <strong>GTA VI: The Festival</strong> takes over Mana Wynwood in Miami on Saturday, November 21, and we're streaming the game live from our own PS5 right now — hit <strong>Watch</strong> in the nav or the button on the homepage. Thirteen years of waiting, and Vice City is finally open. See you in Leonida.</p>"
+        ],
+        "sources": [
+            {
+                "label": "Le Monde — 'Grand Theft Auto VI': Rockstar's latest release earns rave reviews from international critics",
+                "url": "https://www.lemonde.fr/en/pixels/article/2026/11/19/grand-theft-auto-vi-rockstar-s-latest-release-earns-rave-reviews-from-international-critics_6784054_13.html"
+            },
+            {
+                "label": "USA Today — GTA 6 launches: Live updates as gamers explore Vice City",
+                "url": "https://www.usatoday.com/story/tech/gaming/2026/11/19/gta-6-live-updates--live/92811863007/"
+            },
+            {
+                "label": "TradingView — GTA 6 draws over 2.4M Twitch viewers; TTWO stock jumps as early posts indicate rave reviews",
+                "url": "https://www.tradingview.com/news/stocktwits:a2ad60a77094b:0-gta-6-draws-over-2-4m-twitch-viewers-ttwo-stock-jumps-pre-market-as-early-posts-indicate-rave-reviews/"
+            },
+            {
+                "label": "Happy Gamer — GTA 6 launch night: PSN sign-in problems, a required PS5 update and 17.1M sales",
+                "url": "https://happygamer.com/gta-6-launch-night-psn-ps5-update-sales-176014/"
+            }
+        ]
     }
   ]
 }

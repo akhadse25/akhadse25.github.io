@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Live — GTA VI Launch Night | gtageek.me</title>
+<meta name="description" content="Watch GTA Geek's GTA VI launch-night first playthrough, live from PS5.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gtageek.me/watch.html">
+<meta property="og:title" content="Watch Live — GTA VI Launch Night | gtageek.me">
+<meta property="og:description" content="GTA VI launch night, live from PS5 — GTA Geek's first playthrough.">
+<meta property="og:image" content="https://gtageek.me/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Watch Live — GTA VI Launch Night | gtageek.me">
+<meta name="twitter:description" content="GTA VI launch night, live from PS5 — GTA Geek's first playthrough.">
+<meta name="twitter:image" content="https://gtageek.me/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd25a'/%3E%3Cstop offset='.45' stop-color='%23ff8c42'/%3E%3Cstop offset='1' stop-color='%23ff2e88'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%2308010f'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-size='30' font-weight='900' fill='url(%23g)' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --night-0:#08010f;
+    --night-1:#1a0b2e;
+    --night-2:#3b1654;
+    --mag:#ff2e88;
+    --mag-soft:#ff5cab;
+    --orange:#ff8c42;
+    --gold:#ffd25a;
+    --cyan:#2de2e6;
+    --ink:#fbe9ff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Space Mono",monospace;
+    color:var(--ink);
+    background:
+      radial-gradient(120% 80% at 50% 92%, rgba(255,140,66,.22) 0%, transparent 55%),
+      radial-gradient(140% 90% at 50% 100%, rgba(255,46,136,.32) 0%, transparent 60%),
+      linear-gradient(180deg, var(--night-0) 0%, var(--night-1) 55%, var(--night-2) 100%);
+    min-height:100vh;
+    padding:clamp(1rem,3vw,2rem);
+  }
+  .topnav{
+    max-width:960px;margin:0 auto 2rem;
+    display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;
+  }
+  .topnav .brand{
+    font-family:"Anton",sans-serif;font-size:1.3rem;letter-spacing:.08em;
+    color:var(--ink);text-decoration:none;
+  }
+  .topnav .nav-links{display:flex;gap:.6rem;flex-wrap:wrap}
+  .topnav .nav-links a{
+    font-family:"Space Mono",monospace;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink);background:rgba(255,46,136,.08);border:1px solid var(--mag-soft);
+    padding:.55rem .9rem;border-radius:8px;text-decoration:none;
+  }
+  .topnav .nav-links a.active{background:rgba(255,46,136,.28);box-shadow:0 0 16px rgba(255,46,136,.45)}
+  .topnav .nav-links a:hover{background:rgba(255,46,136,.22)}
+  main{max-width:960px;margin:0 auto;text-align:center}
+  .eyebrow{font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cyan);margin-bottom:.6rem}
+  h1{font-family:"Anton",sans-serif;font-size:clamp(1.9rem,5vw,3rem);letter-spacing:.04em;line-height:1.05;margin-bottom:1.2rem}
+  .live-badge{
+    display:inline-block;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;
+    color:#fff;background:var(--mag);border-radius:6px;padding:.35rem .8rem;margin-bottom:1rem;
+    box-shadow:0 0 18px rgba(255,46,136,.6);animation:pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+  .player{
+    position:relative;width:100%;aspect-ratio:16/9;background:#000;
+    border:1px solid var(--mag-soft);border-radius:12px;overflow:hidden;
+    box-shadow:0 0 30px rgba(255,46,136,.35);
+  }
+  .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .sub{margin-top:1.2rem;font-size:.85rem;line-height:1.7;color:rgba(251,233,255,.85)}
+  .sub a{color:var(--cyan)}
+  .btns{margin-top:1.4rem;display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap}
+  .btns a{
+    font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink);background:rgba(255,46,136,.08);border:1px solid var(--mag-soft);
+    padding:.7rem 1.1rem;border-radius:8px;text-decoration:none;
+  }
+  .btns a:hover{background:rgba(255,46,136,.22)}
+  .footer{margin-top:2.5rem;font-size:.68rem;letter-spacing:.08em;color:rgba(251,233,255,.55);line-height:1.8}
+</style>
+</head>
+<body>
+  <nav class="topnav">
+    <a class="brand" href="index.html">gtageek.me</a>
+    <div class="nav-links">
+      <a href="index.html">Countdown</a>
+      <a href="news.html">News</a>
+      <a href="leonida.html">Leonida</a>
+      <a href="vice-fm.html">Radio</a>
+      <a href="watch.html" class="active">Watch</a>
+      <a href="https://www.youtube.com/@GTAGeekMe" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </nav>
+  <main>
+    <p class="eyebrow">Launch night — November 19, 2026</p>
+    <h1>Watch GTA VI Live</h1>
+    <span class="live-badge">● Live now</span>
+    <div class="player">
+      <iframe src="https://www.youtube.com/embed/P7VZ6Vyisqs?autoplay=1&amp;rel=0" title="GTA VI launch night — live first playthrough" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p class="sub">GTA Geek's first playthrough of Grand Theft Auto VI, live from PS5.<br>
+    Gameplay-only stream with headset mic. If the video looks paused, the game is still on a loading screen — audio keeps going and the picture returns when gameplay starts.</p>
+    <div class="btns">
+      <a href="https://www.youtube.com/live/P7VZ6Vyisqs" target="_blank" rel="noopener">▶ Open on YouTube</a>
+      <a href="https://www.youtube.com/@GTAGeekMe" target="_blank" rel="noopener">Subscribe — @GTAGeekMe</a>
+      <a href="index.html">← Back to countdown</a>
+    </div>
+    <p class="footer">Unofficial fan site — not affiliated with Rockstar Games or Take-Two Interactive.<br>Grand Theft Auto and GTA are trademarks of Take-Two Interactive.</p>
+  </main>
+</body>
+</html>
